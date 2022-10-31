@@ -1,0 +1,21 @@
+.employee {
+    display: flex;
+    padding: 15px;
+    border-top: 1px solid #ccc;
+    align-items: center;
+}
+
+.employee:hover {
+    background-color: #b4d5eddc;
+    cursor: pointer;
+}
+
+.image {
+    height: 75px;
+    width: 75px;
+    margin-right: 5px;
+}
+
+.fullname {
+    flex: 1;
+}

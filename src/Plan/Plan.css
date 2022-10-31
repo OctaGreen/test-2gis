@@ -1,0 +1,8 @@
+.panel {
+    flex-basis: 70%;
+}
+
+.map {
+    width: calc(100%);
+    height: calc(100%);
+}

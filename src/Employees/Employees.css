@@ -1,0 +1,37 @@
+.employees {
+    flex-basis: 30%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 8fr 1fr;
+}
+
+.employees__search {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.employees__list {
+    overflow: auto;
+}
+
+.employees__pagination {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.right {
+    transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+}
